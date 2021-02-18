@@ -23,7 +23,7 @@ def GetHouses(directions):
             i -= 1
         else:
             raise Exception("Directions not clear!")
-        position = (i,j)
+        position = (i, j)
         positions.add(position)
     return positions
 
