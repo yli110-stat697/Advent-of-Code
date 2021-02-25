@@ -8,7 +8,8 @@ def hashValueGen():
     while True:
         hash_str = input_str + str(i)
         hash_value = hashlib.md5(hash_str.encode()).hexdigest()
-        yield i, hash_value
+        if hash_value[:6] == '000000': ## control the what will be in yielded
+            yield i, hash_value
         i += 1
 
 tic = time.perf_counter()
