@@ -41,7 +41,6 @@ for i,v in enumerate(instructions):
 
 matrix = {}
 x = tuple(range(1000))
-matrix = {}
 for ele in product(x,x):
     matrix[ele] = 0
 
