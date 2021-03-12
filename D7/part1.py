@@ -53,5 +53,3 @@ def getValue(key):
             wire[2] = getValue(wire[2])
 
     return Calculate(wire)
-
-print("The signal of wire a is {}".format(getValue('a')))
