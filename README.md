@@ -1,4 +1,4 @@
 # Advent of Code for 2015
 
-This repo is tarted for testing.
+This repo is used for testing `git rebase strategy".
 
